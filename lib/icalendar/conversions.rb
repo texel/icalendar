@@ -53,7 +53,7 @@ module URI
 end
 
 class DateTime < Date
-  def to_ical(utc = false)
+  def to_ical(utc = Icalendar::UTC_DEFAULT)
     s = ""
     
     # 4 digit year
@@ -91,7 +91,7 @@ class DateTime < Date
 end
 
 class Date
-  def to_ical(utc = false)
+  def to_ical(utc = Icalendar::UTC_DEFAULT)
     s = ""
         
     # 4 digit year
@@ -108,7 +108,7 @@ class Date
 end
 
 class Time
-  def to_ical(utc = false)
+  def to_ical(utc = Icalendar::UTC_DEFAULT)
     s = ""
 
     # Double digit hour

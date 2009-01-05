@@ -8,6 +8,8 @@
 require 'logger'
 
 module Icalendar #:nodoc:
+  
+  UTC_DEFAULT = true
 
   # A simple error class to differentiate iCalendar library exceptions
   # from ruby language exceptions or others.
