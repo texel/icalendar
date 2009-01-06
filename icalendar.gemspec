@@ -3,7 +3,7 @@ require 'rake'
 PKG_VERSION = "1.0.3.1"
 
 Gem::Specification.new do |s| 
-  s.name = "texel-icalendar" 
+  s.name = "icalendar" 
   s.version = PKG_VERSION 
   s.homepage = "http://www.github.com/texel/icalendar/" 
   s.platform = Gem::Platform::RUBY 
