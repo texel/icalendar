@@ -1,6 +1,6 @@
 require 'rake'
 
-PKG_VERSION = "1.0.3"
+PKG_VERSION = "1.0.3.1"
 
 Gem::Specification.new do |s| 
   s.name = "texel-icalendar" 
